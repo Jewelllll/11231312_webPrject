@@ -1,15 +1,90 @@
-var opt_R = document.getElementById("opt_P");
-opt_R.style.visibility = "hidden";
-function cnt_tt()
-{
-  var V = document.getElementById("ipt_V");
-  var R = document.getElementById("ipt_R");
-  var P = V.valueAsNumber*V.valueAsNumber/R.valueAsNumber;
-  opt_P.innerHTML = "系統電功率值為："+ Math.round(P*100)/100 +"瓦特";
-  opt_P.style.visibility = "visible";
-}
-
-function returnP()
-{
-  location.href="physics.html";
-}
+html {
+    height: 100%;
+    width: 100%;
+    font-family: caveat;
+  }
+  
+  @font-face {
+    font-family: "chenyuluoyan_thin";
+    src:
+      url('fonts/ChenYuluoyan-Thin.woff') format("woff"),
+      url('fonts/ChenYuluoyan-Thin.ttf') format("opentype"),
+      url('fonts/ChenYuluoyan-Thin.eot) format("embedded-opentype");
+  )
+  }
+  
+  .header {
+  
+    background-color: rgb(251, 232, 137, 0.3);
+    height: 6vw;
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+    bottom: 3.5vw;
+    text-shadow: 5px -3.5px #fedd67;
+  }
+  
+  .tit {
+    font-size: 70px;
+    text-align: center;
+    color: #155ea2;
+    vertical-align: middle;
+    line-height: 6vw;
+  }
+  
+  .back {
+    color: #155ea2;
+    font-family: "chenyuluoyan_thin", "Noto Serif TC";
+    font-weight: 600;
+    font-size: 2vw;
+    width: 7vw;
+    height: 2vw;
+    position: absolute;
+    top: 40vw;
+    left: 7.5%;
+    margin: 1.5vw;
+    bottom: 30px;
+  }
+  
+  select {
+    font-family: "chenyuluoyan_thin", "Noto Serif TC";
+    position: relative;
+    left: 40%;
+    font-size: 40px;
+  }
+  
+  .submitt {
+    color: #155ea2;
+    font-family: "chenyuluoyan_thin", "Noto Serif TC";
+    font-weight: 600;
+    font-size: 1.6vw;
+    width: 5vw;
+    height: 2vw;
+    position: relative;
+    left: 55%;
+    margin: 1.5vw;
+  }
+  
+  .op1 {
+    color: #6464af;
+    font-family: "chenyuluoyan_thin", "Noto Serif TC";
+    position: relative;
+    left: 40%;
+    font-size: 40px;
+  }
+  
+  .choice {
+    color: #d9be5e;
+    font-family: "chenyuluoyan_thin", "Noto Serif TC";
+    position: relative;
+    left: 40%;
+    font-size: 40px;
+  }
+  
+  mark {
+    background-color: transparent;
+    padding: 2px 1px;
+    border-radius: 5px;
+    background: linear-gradient(transparent 40%, rgba(255, 255, 255, 0) 60%, #ffdc00 75%, #ffdc00 90%, #ffdc00 95%);
+  
+  }
