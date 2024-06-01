@@ -1,95 +1,111 @@
 html {
-    height: 100%;
-    width: 100%;
-    /*font-family: caveat;*/
-  }
-  
-  @font-face {
-    font-family:"chenyuluoyan_thin";
-    src: 
-          url('fonts/ChenYuluoyan-Thin.woff') format("woff"),
-          url('fonts/ChenYuluoyan-Thin.ttf') format("opentype"),
-          url('fonts/ChenYuluoyan-Thin.eot) format("embedded-opentype");
-  )}
-  
-  header {
-    font-family:"chenyuluoyan_thin","Noto Serif TC";
-    background-color: rgb(220, 194, 224, 0.3);
-    height: 6vw;
-    width: 100%;
-    margin: 20px auto;
-    position: relative;
-    bottom: 3.5vw;
-  
-  }
-  
-  .tit {
-    font-size: 5vw;
-    text-align: center;
-    color: #609dd2;
-    vertical-align:middle;
-    line-height:6.5vw;
-  }
-  
-  
-  form {
-    font-family:"chenyuluoyan_thin","Noto Serif TC";
-    position: relative;
-    left: 40%;
-    font-size: 40px;
-  }
-  
-  .check{
-    color: #155ea2;
-    font-family: "chenyuluoyan_thin","Noto Serif TC";
-    font-weight: 600;
-    font-size: 1.6vw;
-    width: 5vw;
-    height: 2vw;
-    position: relative;
-    left: 55%;
-    margin: 1.5vw;
-  }
-  
-  .back {
-    color: #155ea2;
-    font-family: "chenyuluoyan_thin","Noto Serif TC";
-    font-weight: 600;
-    font-size: 2vw;
-    width: 5vw;
-    height: 2vw;
-    position: absolute;
-    top: 40vw;
-    left: 7.5%;
-    margin: 1.5vw;
-    bottom: 30px;
-  }
-  
-  .result {
-    text-align: center;
-    margin: 1px auto;
-    width: 650px;
-    border: 1px solid hsl(22, 18%, 64%);
-    background-color: #f9ecbe;
-    color: #d06925;
-    font-family: "chenyuluoyan_thin","Noto Serif TC";
-    font-weight: 500;
-    font-size: 40px;
-    bottom: 39px;
-  }
-  
-  mark.pink {
-    background-color: transparent;
-    padding: 1px 1px;
-    border-radius: 5px;
-    background: linear-gradient(transparent 40%, rgba(255, 255, 255, 0) 50%, #ecb1df 75%,#f5e0f2 90%,#f7d4e8 95%);
-  
-  }
-  
-  mark.blue {
-    background-color: transparent;
-    padding: 1px 1px;
-    border-radius: 5px;
-    background: linear-gradient(transparent 40%, rgba(255, 255, 255, 0) 50%, #b9c7e9 75%,#d4dff7 90%,#ccd5ea 95%);
-  
-  }
+  height: 100%;
+  width: 100%;
+  /*font-family: caveat;*/
+}
+
+@font-face {
+  font-family: "chenyuluoyan_thin";
+  src:
+    url('fonts/ChenYuluoyan-Thin.woff') format("woff"),
+    url('fonts/ChenYuluoyan-Thin.ttf') format("opentype"),
+    url('fonts/ChenYuluoyan-Thin.eot) format("embedded-opentype");
+)
+}
+
+header {
+  font-family: "chenyuluoyan_thin","Noto Serif TC";
+  background-color: rgb(220, 194, 224, 0.3);
+  height: 6vw;
+  width: 100%;
+  margin: 20px auto;
+  position: relative;
+  bottom: 3.5vw;
+}
+
+.tit {
+  font-size: 5vw;
+  text-align: center;
+  color: #609dd2;
+  vertical-align:middle;
+  line-height:6.5vw;
+}
+
+
+form {
+  font-family: "chenyuluoyan_thin","Noto Serif TC";
+  font-weight: 500;
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+}
+
+.check {
+  color: #155ea2;
+  font-family: "chenyuluoyan_thin","Noto Serif TC";
+  font-weight: 600;
+  font-size: 2vw;
+  width: 7vw;
+  height: 4vh;
+  position: relative;
+  left: 65%;
+  margin: 1.5vw;
+  white-space: nowrap;
+}
+
+.back {
+  color: #155ea2;
+  font-family: "chenyuluoyan_thin","Noto Serif TC";
+  font-weight: 600;
+  font-size: 2vw;
+  width: 7vw;
+  height: 4vh;
+  position: absolute;
+  top: 60vh;
+  left: 7.5%;
+  margin: 1.5vw;
+  bottom: 30px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.result {
+  margin: 1px auto;
+  width: 650px;
+  border: 1px solid hsl(22, 18%, 64%);
+  background-color: #f9ecbe;
+  color: #d06925;
+  font-family: "chenyuluoyan_thin","Noto Serif TC";
+  font-weight: 500;
+  font-size: 40px;
+  bottom: 20vh;
+  text-align: center;
+}
+
+mark.pink {
+  background-color: transparent;
+  padding: 1px 1px;
+  border-radius: 5px;
+  background: linear-gradient(transparent 40%, rgba(255, 255, 255, 0) 50%, #ecb1df 75%,#f5e0f2 90%,#f7d4e8 95%);
+
+}
+
+mark.blue {
+  background-color: transparent;
+  padding: 1px 1px;
+  border-radius: 5px;
+  background: linear-gradient(transparent 40%, rgba(255, 255, 255, 0) 50%, #b9c7e9 75%,#d4dff7 90%,#ccd5ea 95%);
+
+}
+
+footer{
+  text-align: center;
+  padding: 10px 0;
+  background: rgb(220, 194, 224, 0.3);
+  color: #947da1;
+  width: 100vw;
+  margin-top: 10vh;
+  position: relative;
+  top:3vh;
+  font-family: caveat;
+}
