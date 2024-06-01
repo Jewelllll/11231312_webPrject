@@ -5,6 +5,7 @@
 ### 💫 about my process
 - [x] basic function
 - [x] decoration
+- [ ] 頁面留白尚未修正
 - [ ] more and more function include
 
 (期待一下吧！)
