@@ -3,6 +3,7 @@ html {
   width: 100%;
   font-family: caveat,"chenyuluoyan_thin";
 }
+
 @font-face {
   font-family:"chenyuluoyan_thin";
   src: 
@@ -34,13 +35,14 @@ header {
 
 main {
   width: 80vw;
-  height: 26vw;
-  margin: 2vw auto;
-  display: block ;
+  height: 35vh;
+  margin: auto;
+  display: flex ;
   background-color: aliceblue;
   border: 5px double #5073c3;
   padding: 5vw;
   align-items: center;
+  justify-content: center;
 
 }
 /*button*/
@@ -53,10 +55,13 @@ main {
 
 footer{
   text-align: center;
-  margin-top: 20px;
   padding: 10px 0;
   background: #f0fdff;
   color: #006064;
+  width: 100vw;
+  margin-top: 10vh;
+  position: relative;
+  top:3vh;
 }
 
 
@@ -64,13 +69,11 @@ button{
   color:#4683b9;
   font-family: "chenyuluoyan_thin","Noto Serif TC";
   font-weight: 600;
-  font-size: 3.8vh;
+  font-size: 2.1vw;
   width: 15vw;
-  height: 3vw;
-  position: relative;
-  top:10vw;
-  left:15.5%;
+  height: 7vh;
   margin: 1.5vw;
+  white-space: nowrap;
 }
 /*
 .glow_banner {
