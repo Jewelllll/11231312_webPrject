@@ -104,7 +104,8 @@ footer{
   color: #947da1;
   width: 100vw;
   margin-top: 10vh;
-  position: relative;
-  top:3vh;
+  position: absolute;
+  bottom: 0;
+  font-size: 20px;
   font-family: caveat;
 }
